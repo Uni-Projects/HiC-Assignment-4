@@ -1,0 +1,3 @@
+input: a x29
+
+The first 20 characters are used to fill buf, and the next 8 to reach the ok variable in memory. Since it looks like it is a boolean we can change that to whatever we like but 0. Now the program is going to give us positive or negative response based on the value of the ok boolean and since we managed to set the value to true, we get the root access.
